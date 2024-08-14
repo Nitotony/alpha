@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.Logo {
+width: 100px;
+height: 100px;
+}
+.Logo img {
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+
+  border-radius: 50%;
+
+}
+.header{
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.Main{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 20px 10px;
+
+}
+
+.Main li{
+  margin: 10px;
+  padding: 5px;
+
+ 
+}
+
+.Main li a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background-color: aliceblue;
+}
+.table-data{
+  
+
+  margin:100px auto ;
+  text-align: center;
+  border-collapse: collapse;
+
+  
+}
+
+
+th{
+  padding: 30px;
+}
+td{
+  border: red solid 2px;
+  padding: 30px;
+}
+
+.total-body{
+  text-align: center;
+  width: 30%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.use{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.pass{
+  display: flex;
+  flex-direction: column;
+   padding: 20px;
+
+}
+label{
+  text-align: start;
+}
+
+.total-body img{
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
+
+
+.footer{
+  text-align: center;
+  color: brown;
+}
